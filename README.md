@@ -14,10 +14,15 @@ The storage backend is Mysql , and the frontend is writtern in NodeJS (with expr
 
 # How to Install
 1.Download the release pack or git clone to a folder
-2.Open the folder run "npm install"
-3.Install pm2 , run "npm install -g pm2"
-4.Setup databases with the db example "db.sql" , and put in parameters in "config.js"
-5.Open the cloned folder / exacted folder , run "pm2 start bin/www --name 'ntfs'"
+
+2.Setup databases with the db example "db.sql" , and put in parameters in "config.js"
+
+3.Open the folder and run "npm install"
+
+4.Install pm2 , run "npm install -g pm2"
+
+5.Run "pm2 start bin/www --name 'ntfs'"
+
 
 # How to use
 Using RESTful style request to create/delete/get files
